@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebInterface.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Entity Framework Demo</title>
+    <link type="text/css" rel="stylesheet" href="Styles/BaseStyles.css" />
+    <meta name="description" content="Entity Framework Demo" />
+    <asp:ContentPlaceHolder ID="HeaderContent" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="body-content centre-element">
+        <form runat="server">
+            <div style="text-align: center;">
+                <asp:HyperLink ID="HomeLink" runat="server" NavigateUrl="~/Default.aspx">
+                    <asp:Image ID="MainLogo" ImageUrl="~/Images/monteverde.png" runat="server" />
+                </asp:HyperLink>
+            </div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </form>
+    </div>
+</body>
+</html>

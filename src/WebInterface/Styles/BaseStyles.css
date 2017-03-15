@@ -1,0 +1,22 @@
+﻿body {
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.body-content {
+    max-width: 980px;
+    background-color: white;
+    padding: 20px;
+}
+
+.centre-element {
+    margin: 0 auto;
+}
+
+.cell-spacer td, th {
+    padding: 2px 5px;
+}
+
+.table-top-spacer {
+    margin-top: 20px;
+}
