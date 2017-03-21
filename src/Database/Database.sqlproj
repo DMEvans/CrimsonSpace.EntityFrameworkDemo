@@ -76,5 +76,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\Execute Demographic Revenue Report.sql" />
+    <None Include="Scripts\Generate Demo Data.sql" />
   </ItemGroup>
 </Project>
