@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Demo2.aspx.cs" Inherits="WebInterface.Demo2" %>
+﻿<%@ Page Title="Demo 2" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Demo2.aspx.cs" Inherits="WebInterface.Demo2" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div style="text-align: center;">

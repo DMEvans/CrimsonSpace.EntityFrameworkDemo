@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - Entity Framework Demo</title>
     <link type="text/css" rel="stylesheet" href="Styles/BaseStyles.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <meta name="description" content="Entity Framework Demo" />
     <asp:ContentPlaceHolder ID="HeaderContent" runat="server"></asp:ContentPlaceHolder>
 </head>
@@ -22,6 +23,11 @@
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
         </form>
+        <div class="footer centre-element">
+            <hr />
+            All code is available for download at:<br />
+            <a href="https://github.com/DMEvans/CrimsonSpace.EntityFrameworkDemo" target="_blank">https://github.com/DMEvans/CrimsonSpace.EntityFrameworkDemo</a>
+        </div>
     </div>
 </body>
 </html>
