@@ -61,6 +61,9 @@
     <Compile Include="Customer.cs">
       <DependentUpon>DemoModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="DemographicRevenue_Result.cs">
+      <DependentUpon>DemoModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="DemoModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
