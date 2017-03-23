@@ -54,21 +54,11 @@ namespace WebInterface
 
         private void GenerateReport(DateTime fromDate, DateTime toDate)
         {
-            var reportData = new List<DemographicRevenue_Result>();
-
             using (var entities = new DemoEntities())
             {
-                var results = entities.DemographicRevenue(fromDate, toDate);
-
-                var enumerator = results.GetEnumerator();
-
-                while (enumerator.MoveNext())
-                {
-                    reportData.Add(enumerator.Current);
-                }
+                var reportData = entities.DemographicRevenue(fromDate, toDate).ToList();
+                DisplayReportData(reportData);
             }
-
-            DisplayReportData(reportData);
         }
 
         #endregion Demo Code
